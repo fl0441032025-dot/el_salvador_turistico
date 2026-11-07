@@ -24,8 +24,3 @@ Para demostrar el desarrollo progresivo, realiza cada commit al terminar esa sec
 2. `feat: agregar barra de navegacion`
 3. `feat: maquetar seccion principal de destinos`
 4. `feat: agregar pie de pagina`
-
-Consulta el historial con `git log --oneline`.
-
-## Evidencia de uso de IA
-Si la actividad solicita evidencias de IA, conserva capturas reales de la conversación y del proceso de trabajo. No fabriques capturas. Guarda las evidencias en una carpeta `Evidencias_IA` en el Drive indicado por el docente.
