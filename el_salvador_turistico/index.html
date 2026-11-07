@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre lugares turísticos de El Salvador.">
+  <title>El Salvador Turístico</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- 1. Identidad del sitio -->
+  <header class="encabezado" id="inicio">
+    <a class="logo" href="#inicio">El Salvador <span>Turístico</span></a>
+
+    <!-- 2. Barra de navegación -->
+    <button class="menu-boton" id="menuBoton" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="navegacion" id="navegacion">
+      <a href="#inicio">Inicio</a>
+      <a href="#lugares">Lugares</a>
+      <a href="#acerca">Acerca de</a>
+    </nav>
+  </header>
+
+  <!-- 3. Contenido principal -->
+  <main>
+    <section class="portada">
+      <div class="portada-contenido">
+        <p class="etiqueta">UN DESTINO POR DESCUBRIR</p>
+        <h1>Conoce la belleza de <span>El Salvador</span></h1>
+        <p>Playas, volcanes, pueblos coloridos y paisajes increíbles te esperan.</p>
+        <a class="boton" href="#lugares">Explorar destinos</a>
+      </div>
+    </section>
+
+    <section class="seccion lugares" id="lugares">
+      <div class="titulo-seccion">
+        <p class="etiqueta">NUESTROS DESTINOS</p>
+        <h2>Lugares que debes visitar</h2>
+        <p>Una pequeña selección de sitios turísticos de nuestro país.</p>
+      </div>
+
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Paisaje natural de montaña">
+          <div class="tarjeta-contenido">
+            <h3>Ruta de Las Flores</h3>
+            <p>Recorre pueblos pintorescos, disfruta del clima agradable y prueba la comida típica.</p>
+            <span class="categoria">Ahuachapán y Sonsonate</span>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="Playa de arena y mar">
+          <div class="tarjeta-contenido">
+            <h3>Playa El Tunco</h3>
+            <p>Un destino conocido por sus olas, sus atardeceres y su ambiente turístico.</p>
+            <span class="categoria">La Libertad</span>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt="Montañas y paisaje natural">
+          <div class="tarjeta-contenido">
+            <h3>Volcán de Santa Ana</h3>
+            <p>Disfruta de una caminata y de uno de los paisajes naturales más impresionantes.</p>
+            <span class="categoria">Santa Ana</span>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=80" alt="Arquitectura de una ciudad">
+          <div class="tarjeta-contenido">
+            <h3>Suchitoto</h3>
+            <p>Un pueblo colonial con calles empedradas, cultura, historia y vistas al lago.</p>
+            <span class="categoria">Cuscatlán</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="acerca" id="acerca">
+      <div class="acerca-contenido">
+        <h2>¡El Salvador es pequeño, pero tiene mucho por ofrecer!</h2>
+        <p>Este sitio busca dar a conocer algunos destinos turísticos del país e invitar a
+          explorar sus paisajes, tradiciones y cultura.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 4. Pie de página -->
+  <footer class="pie">
+    <p><strong>El Salvador Turístico</strong> · Descubre, disfruta y comparte.</p>
+    <p class="creditos">Proyecto académico de diseño y desarrollo web · <span id="anio"></span></p>
+  </footer>
+</body>
+</html>
